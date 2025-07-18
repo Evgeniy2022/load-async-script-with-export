@@ -1,9 +1,10 @@
 {
-  "name": "load-async-script-with-script",
+  "name": "load-async-script-with-export",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/bundle.es5.js",
   "module": "dist/bundle.es5.js",
+  "types": "./index.d.ts",
   "type": "module",
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
   "homepage": "https://github.com/Evgeniy2022/load-async-script-with-export",
   "files": [
     "dist",
-	 "package.json"
+	 "package.json",
+	 "index.d.ts"
   ],
   "scripts": {
     "prebuild": "rimraf dist",

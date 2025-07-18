@@ -7,7 +7,7 @@
 function loadAsyncScript(src, options={}) {
     const { globalName } = options;
 
-    if ( ! src  ) {
+    if ( !src ) {
         return Promise.reject('Invalid source.');
     }
 

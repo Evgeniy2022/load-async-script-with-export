@@ -9,7 +9,7 @@ A tiny script for loading 3rd party scripts asynchronously such as loading Googl
 ```javascript
 
 // import
-import loadAsyncScript from 'load-async-script';
+import loadAsyncScript from 'load-async-script-with-export';
 
 
 // usage
