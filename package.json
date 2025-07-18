@@ -1,0 +1,37 @@
+{
+  "name": "load-async-script-with-script",
+  "private": false,
+  "version": "0.0.1",
+  "main": "dist/bundle.es5.js",
+  "module": "dist/bundle.es5.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeniy2022/load-async-script-with-export"
+  },
+  "bugs": {
+    "url": "https://github.com/Evgeniy2022/load-async-script-with-export/issues"
+  },
+  "keywords": [
+    "async script",
+    "script loader",
+    "load script",
+    "script load"
+  ],
+  "homepage": "https://github.com/Evgeniy2022/load-async-script-with-export",
+  "files": [
+    "dist",
+	 "package.json"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^3.7.1",
+    "rollup-plugin-filesize": "^9.1.2"
+  }
+}
