@@ -2,6 +2,7 @@
 
 A tiny script for loading 3rd party scripts asynchronously such as loading Google Maps or reCaptcha script. 
 
+[Clone of](https://github.com/delowardev/load-async-script.git)
 
 # Usage:
 
