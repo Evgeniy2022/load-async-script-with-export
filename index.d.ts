@@ -1,9 +1,9 @@
-declare module 'load-async-script-with-script' {
+declare module 'load-async-script-with-export' {
 	export type TOptions = {
 		globalName?: string
 	}
 
-	function loadAsyncScriptWithScript<T = any>(url: string, options?: TOptions): Promise<T>;
+	function loadAsyncScriptWithExport<T = any>(url: string, options?: TOptions): Promise<T>;
 
-	export default loadAsyncScriptWithScript;
+	export default loadAsyncScriptWithExport;
 }

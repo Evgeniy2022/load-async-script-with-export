@@ -11,9 +11,12 @@ A tiny script for loading 3rd party scripts asynchronously such as loading Googl
 // import
 import loadAsyncScript from 'load-async-script-with-export';
 
-
+interface ExportedObject {
+	expVar1: string 
+	expVar2: string 
+}
 // usage
-const { expVar1, expVar2 } = await loadAsyncScript( '__SCRIPT_SRC__', { 
+const { expVar1, expVar2 } = await loadAsyncScript<ExportedObject>( '__SCRIPT_SRC__', { 
     globalName: 'globalExportingName', 
 });
 
